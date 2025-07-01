@@ -33,32 +33,20 @@ sudo apt update
 sudo apt install build-essential libgtk-3-dev libsqlite3-dev libcairo2-dev
 También debes tener git instalado:
 
-bash
-Copiar
-Editar
 sudo apt install git
 🚀 3. Pasos para compilación y ejecución
 Sigue estos pasos para compilar y correr el sistema desde tu terminal:
 
 📥 Clonar el repositorio
-bash
-Copiar
-Editar
 git clone https://github.com/TU_USUARIO/inventario-gtk.git
 cd inventario-gtk
 (Reemplaza TU_USUARIO por tu nombre real de usuario en GitHub.)
 
 🏗️ Compilar el proyecto
-bash
-Copiar
-Editar
 make
 Este comando creará el ejecutable inventario.
 
 ▶️ Ejecutar el sistema
-bash
-Copiar
-Editar
 ./inventario
 👤 Usuario por defecto
 El sistema crea por defecto el siguiente usuario administrador al iniciarse:
@@ -68,9 +56,6 @@ Usuario: admin
 Contraseña: admin123
 
 📁 Estructura del proyecto
-java
-Copiar
-Editar
 inventario-gtk/
 ├── src/         → Código fuente en C
 ├── include/     → Archivos de cabecera (.h)

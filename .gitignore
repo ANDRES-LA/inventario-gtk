@@ -1,0 +1,7 @@
+inventario
+*.o
+obj/
+*.db
+*.csv
+*.pdf
+
